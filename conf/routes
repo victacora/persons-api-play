@@ -1,0 +1,14 @@
+# Routes
+
+# An example controller showing a sample home page
+GET    /                     co.com.adnII.controllers.HomeController.index
+
+GET    /api/v1/persons                     co.com.adnII.controllers.PersonController.list
+
+POST   /api/v1/persons                     co.com.adnII.controllers.PersonController.create
+
+GET    /api/v1/persons/:id                 co.com.adnII.controllers.PersonController.find(id)
+
+PUT    /api/v1/persons/:id                 co.com.adnII.controllers.PersonController.update(id)
+
+DELETE    /api/v1/persons/:id              co.com.adnII.controllers.PersonController.delete(id)
